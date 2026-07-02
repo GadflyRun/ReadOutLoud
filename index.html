@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ReadOutLoud | 免费英语朗读音频生成器</title>
+    <meta
+      name="description"
+      content="ReadOutLoud 是一个免费的 macOS 英语朗读音频生成器，适合英语老师和学习者批量生成单词、句子与段落的朗读音频。"
+    >
+    <link rel="icon" href="assets/app-icon.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="ReadOutLoud 首页">
+        <img src="assets/app-icon.png" alt="" width="36" height="36">
+        <span>ReadOutLoud</span>
+      </a>
+      <nav class="site-nav" aria-label="页面导航">
+        <a href="#features">特点</a>
+        <a href="#strong-mode">强推设置</a>
+        <a href="#how-to">怎么用</a>
+        <a href="#notes">说明</a>
+      </nav>
+      <div class="header-actions">
+        <a class="header-link" data-link="repo" href="#top">GitHub</a>
+        <a class="header-button" data-link="release" href="#download">下载 App</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero shell">
+        <div class="hero-copy">
+          <p class="eyebrow">Free macOS app for teachers and learners</p>
+          <h1>把任何英文<br>变成地道的朗读音频</h1>
+          <p class="hero-text">
+            输入单词、句子或段落，选择语音和语速，几秒钟内批量生成英语朗读材料。
+            适合英语老师做词汇预习、句子跟读，也适合学习者自制磨耳朵音频。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" data-link="release" href="#download">下载 Mac 版</a>
+            <a class="button secondary" data-link="repo" href="#top">查看项目</a>
+          </div>
+          <dl class="hero-facts">
+            <div>
+              <dt>平台</dt>
+              <dd>macOS / Apple Silicon</dd>
+            </div>
+            <div>
+              <dt>技术</dt>
+              <dd>Python + edge-tts</dd>
+            </div>
+            <div>
+              <dt>定位</dt>
+              <dd>完全免费</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual">
+          <div class="poster-frame">
+            <img
+              src="assets/hero-poster.png"
+              alt="ReadOutLoud 海报：把任何英文变成地道的朗读音频"
+              width="1200"
+              height="1600"
+              fetchpriority="high"
+            >
+          </div>
+          <div class="floating-chip chip-top">
+            <span>Voices</span>
+            <strong>US + UK</strong>
+          </div>
+          <div class="floating-chip chip-bottom">
+            <span>Strong mode</span>
+            <strong>3 passes</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-band" id="features">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="eyebrow">Why it is useful</p>
+            <h2>它不是花哨工具，而是能立刻帮你省时间</h2>
+            <p>
+              本来要一句一句录、一个一个找发音的工作，现在可以直接交给一个桌面小工具完成。
+            </p>
+          </div>
+          <div class="feature-grid">
+            <article>
+              <h3>批量生成</h3>
+              <p>每行一句或一个单词，几秒钟生成整批音频，不再手动录制。</p>
+            </article>
+            <article>
+              <h3>多种音色</h3>
+              <p>支持美音、英音、男声、女声，避免学习者只习惯单一声音。</p>
+            </article>
+            <article>
+              <h3>直接可用</h3>
+              <p>输出就是 <code>.mp3</code>，适合发群、跟读、通勤听、睡前磨耳朵。</p>
+            </article>
+            <article>
+              <h3>面向真实教学</h3>
+              <p>它是从老师和家长的实际需求里长出来的，不是为了炫技而做。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="story shell">
+        <div class="story-copy">
+          <p class="eyebrow">Meet ReadOutLoud</p>
+          <h2>一个很简单，但很实用的小 App</h2>
+          <p>
+            它能把你给的任何英文单词、句子、段落，变成标准、自然的英语朗读音频。
+            我把它免费分享出来，供所有教培老师和英语学习者使用。
+          </p>
+        </div>
+        <div class="story-card">
+          <img
+            src="assets/meet-readoutloud.png"
+            alt="ReadOutLoud 介绍图：把任何英文单词、句子、段落变成标准地道的英语朗读音频"
+            width="1200"
+            height="1600"
+            loading="lazy"
+          >
+        </div>
+      </section>
+
+      <section class="showcase shell" id="strong-mode">
+        <div class="section-heading compact">
+          <p class="eyebrow">Core feature</p>
+          <h2>我特别推荐的：强推设置</h2>
+          <p>连续三遍，不同声音，不同语速，给耳朵留出适应与回想的空间。</p>
+        </div>
+        <div class="showcase-grid">
+          <article class="showcase-panel">
+            <div class="showcase-image">
+              <img
+                src="assets/strong-mode.png"
+                alt="ReadOutLoud 强推设置说明图"
+                width="1200"
+                height="1600"
+                loading="lazy"
+              >
+            </div>
+          </article>
+          <article class="sequence-card">
+            <h3>三遍的顺序</h3>
+            <ol>
+              <li><strong>Aria</strong> 女声，<code>-20%</code></li>
+              <li><strong>Guy</strong> 男声，<code>-30%</code></li>
+              <li><strong>Jenny</strong> 女声，<code>-10%</code></li>
+            </ol>
+            <p>
+              每遍之间停顿 <strong>0.5 秒</strong>，每句之间停顿 <strong>1 秒</strong>。
+              这不是多余装饰，而是专门留给学习者回顾、跟读和复述的节奏。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="how-to shell" id="how-to">
+        <div class="section-heading compact">
+          <p class="eyebrow">How it works</p>
+          <h2>下载后，基本上四步就能上手</h2>
+        </div>
+        <div class="how-grid">
+          <div class="how-card">
+            <span>01</span>
+            <h3>下载并解压</h3>
+            <p>把打包好的压缩包下载下来，双击解压，得到 <code>ReadOutLoud.app</code>。</p>
+          </div>
+          <div class="how-card">
+            <span>02</span>
+            <h3>第一次右键打开</h3>
+            <p>第一次不要直接双击，请右键图标，选择“打开”，再在弹窗里点一次“打开”。</p>
+          </div>
+          <div class="how-card">
+            <span>03</span>
+            <h3>输入内容</h3>
+            <p>在文本框里输入内容，每行一句话或一个单词，选择声音和语速。</p>
+          </div>
+          <div class="how-card">
+            <span>04</span>
+            <h3>点击生成</h3>
+            <p>音频会保存到你指定的文件夹；如果想省心，直接用“强推设置”即可。</p>
+          </div>
+        </div>
+        <div class="instruction-frame">
+          <img
+            src="assets/how-to-use.png"
+            alt="ReadOutLoud 下载后的使用说明"
+            width="1080"
+            height="1920"
+            loading="lazy"
+          >
+        </div>
+      </section>
+
+      <section class="usage shell">
+        <div class="usage-copy">
+          <p class="eyebrow">Simple by design</p>
+          <h2>用起来就像一个专门替你读英语的小助手</h2>
+          <p>
+            打开软件，在文本框里输入你的内容，每行写一句话或一个单词；
+            选好你想要的声音和语速，点击生成，音频文件就会保存到指定文件夹。
+          </p>
+        </div>
+        <div class="usage-card">
+          <img
+            src="assets/usage-overview.png"
+            alt="ReadOutLoud 使用方式说明图"
+            width="1200"
+            height="1600"
+            loading="lazy"
+          >
+        </div>
+      </section>
+
+      <section class="notes shell" id="notes">
+        <div class="section-heading compact">
+          <p class="eyebrow">Notes</p>
+          <h2>使用前，你需要知道这几件事</h2>
+        </div>
+        <div class="note-grid">
+          <article>
+            <h3>仅支持苹果芯片 Mac</h3>
+            <p>当前版本面向 Apple Silicon 设备，使用时需要联网。</p>
+          </article>
+          <article>
+            <h3>完全免费</h3>
+            <p>没有广告、没有注册、没有收费项目，做出来就是为了能真正帮人用上。</p>
+          </article>
+          <article>
+            <h3>界面朴素，但功能扎实</h3>
+            <p>时间主要花在功能和打包上，版式没有过度打磨，但核心流程已经足够顺手。</p>
+          </article>
+          <article>
+            <h3>支持定制交流</h3>
+            <p>如果你想优化这个 App，或者想做自己的小工具，也欢迎直接联系我。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="final-cta shell" id="download">
+        <div>
+          <p class="eyebrow">Download or connect</p>
+          <h2>想用这个工具，或者想聊聊怎么把需求做成小 App？</h2>
+          <p>
+            可以直接下载试用，也欢迎通过邮箱或微信交流。这个项目由 Ye Xiaokai 设计，
+            并与 Claude Code 协作完成。
+          </p>
+        </div>
+        <div class="final-actions">
+          <a class="button primary" data-link="release" href="#download">下载最新版本</a>
+          <a class="button secondary" data-link="repo" href="#top">GitHub 仓库</a>
+          <a class="button ghost" href="mailto:socranote@gmail.com">发邮件</a>
+        </div>
+        <div class="contact-strip">
+          <span>邮箱：<a href="mailto:socranote@gmail.com">socranote@gmail.com</a></span>
+          <span>微信：yxkenglish</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <span>ReadOutLoud</span>
+        <span>Designed by Ye Xiaokai, coded with Claude Code</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
