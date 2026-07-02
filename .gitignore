@@ -1,0 +1,27 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.log
+.venv/
+venv/
+.python-version
+
+# Local build outputs
+build/
+dist/
+audio/
+
+# Scratch and abandoned local assets
+6月20日.mp4
+朗读音频生成器.spec
+朗读音频生成器_3_Apple浅色.py
+朗读音频生成器_3_Apple浅色.command
+朗读音频生成器_发布文章.md
+4X3介绍文章/
+9X16介绍文章/
+AppIcon_1024.png
+ReadOutLoud_海报.png
+ReadOutLoud_使用说明_9x16.png
+ReadOutLoud_海报_横版16-9.png
+ReadOutLoud_蓝色海报.png
+ReadOutLoud_蓝色海报_16x9.png
