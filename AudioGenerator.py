@@ -123,8 +123,8 @@ REPEAT_SEQUENCE = [
 TEXTS = {
     "zh": {
         "app_title": "ReadOutLoud - 朗读音频生成器",
-        "title_main": "朗读音频生成器",
-        "title_sub": " ReadOutLoud",
+        "title_main": "ReadOutLoud",
+        "title_sub": " 一款朗读音频生成器",
         "credit": "由 Socranotes 设计，与 Claude Code 协作开发",
         "input_hint": "输入英文文本，每行一句或一个单词",
         "language_label": "界面语言",
